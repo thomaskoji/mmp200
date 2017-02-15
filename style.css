@@ -23,21 +23,19 @@ header a {
 nav {
     margin-top: 3em;
     margin-bottom: 3em;
-    background-color: white;
+    background-color: #f2f2f2;
 }
 
 nav li{
-    text-align: center;
     list-style-type: none;
+    padding: 0.5em;
+    border: solid #999999 1px;
+    text-align: center;
 }
 
 nav a {
     text-decoration: none;
     color: black;
-    display: block;
-    padding: 0.5em;
-    margin: 1em;
-    border-bottom: solid 2px #111111;
 }
 
 nav a:hover {
@@ -45,7 +43,11 @@ nav a:hover {
 }
 
 .active {
-    border-bottom: dotted 2px #111111;
+    background-color: #111111;
+}
+
+.active a {
+    color:lightgray;
 }
 
 p, h2, h3{
@@ -56,7 +58,7 @@ h1, h2, h3 {
     margin-top: 0.8em;
 }
 
-ul {
+#philosophy ul {
     padding-left: 2em;
 }
 
@@ -90,14 +92,30 @@ footer {
 @media (min-width: 768px) {
     
     nav li{
+        text-align: center;
         display:inline-block;
         border-bottom:none;
+        border: none;
     }
     
     nav{
         text-align: center;
         background-color: #f2f2f2;
+    }
     
+    nav a {
+        display: block;
+        border-bottom: solid 2px #111111;
+        padding: 0.5em;
+    }
+    
+    .active {
+        background-color:#f2f2f2;
+    }
+    
+    .active a {
+        color:black;
+        border-bottom: dotted 2px #111111;
     }
     
     .col-3{
