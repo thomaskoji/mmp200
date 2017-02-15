@@ -8,11 +8,11 @@
 #wrapper{
     max-width: 960px;
     margin: 0 auto;
-    border
+    padding: 1em;
 }
 
 strong {
-    font-weight: 400;
+    font-weight: bold;
 }
 
 header {
@@ -26,16 +26,7 @@ header a {
 }
 
 .title {
-    text-align: left;
-    padding-left: 8em;
-}
-
-.title h1, h2 {
-    font-weight: 100;   
-}
-
-.title h2{
-    padding-left: 5em;
+    font-size: 70%;
 }
 
 nav {
@@ -73,7 +64,11 @@ p, h2, h3{
 }
 
 h1, h2, h3 {
-    margin-top: 0.8em;
+    margin-top: 1em;
+}
+
+#about a{
+    color:black;
 }
 
 #philosophy ul {
@@ -86,9 +81,10 @@ h1, h2, h3 {
 }
 
 #sergei {
-    width: 50%;
+    width: 100%;
     float: left;
-    margin-right: 1em;
+    margin-right: 6em;
+    margin-bottom: 1em;
 }
 
 blockquote {
@@ -109,6 +105,26 @@ footer {
 
 @media (min-width: 768px) {
     
+    #sergei {
+        width: 50%;
+        float: left;
+        margin-right: 6em;
+    }
+    
+    .title {
+        text-align: left;
+        padding-left: 8em;
+        font-size: 100%;
+    }
+
+    .title h1, h2 {
+        font-weight: 100;   
+    }
+
+    .title h2{
+        padding-left: 5em;
+    }
+    
     nav li{
         text-align: center;
         display:inline-block;
@@ -125,6 +141,7 @@ footer {
         display: block;
         border-bottom: solid 2px #111111;
         padding: 0.5em;
+        margin-bottom: 0.4em;
     }
     
     .active {
@@ -136,6 +153,20 @@ footer {
         border-bottom: dotted 2px #111111;
     }
     
+    #content p {
+        padding: 6em;
+    }
+    
+    #content h3 {
+        text-align: center;
+        margin-bottom: 3em;
+    }
+    
+    #contact {
+        text-align: center;
+    }
+    
+    
     .col-3{
         width:32%;
         float:left;
@@ -144,6 +175,12 @@ footer {
     
     #events{
         margin:0;
+    }
+    
+    footer {
+        position:fixed;
+        left:0px;
+        bottom:0px;
     }
     
 }
