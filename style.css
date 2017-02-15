@@ -2,12 +2,17 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    font-weight: 100;
 }
 
 #wrapper{
-    padding: 1em;
     max-width: 960px;
     margin: 0 auto;
+    padding: 1em;
+}
+
+strong {
+    font-weight: bold;
 }
 
 header {
@@ -20,8 +25,12 @@ header a {
     text-decoration: none;
 }
 
+.title {
+    font-size: 70%;
+}
+
 nav {
-    margin-top: 3em;
+    margin-top: 2.5em;
     margin-bottom: 3em;
     background-color: #f2f2f2;
 }
@@ -55,7 +64,11 @@ p, h2, h3{
 }
 
 h1, h2, h3 {
-    margin-top: 0.8em;
+    margin-top: 1em;
+}
+
+#about a{
+    color:black;
 }
 
 #philosophy ul {
@@ -68,9 +81,10 @@ h1, h2, h3 {
 }
 
 #sergei {
-    width: 50%;
+    width: 100%;
     float: left;
-    margin-right: 1em;
+    margin-right: 6em;
+    margin-bottom: 1em;
 }
 
 blockquote {
@@ -91,6 +105,26 @@ footer {
 
 @media (min-width: 768px) {
     
+    #sergei {
+        width: 50%;
+        float: left;
+        margin-right: 6em;
+    }
+    
+    .title {
+        text-align: left;
+        padding-left: 8em;
+        font-size: 100%;
+    }
+
+    .title h1, h2 {
+        font-weight: 100;   
+    }
+
+    .title h2{
+        padding-left: 5em;
+    }
+    
     nav li{
         text-align: center;
         display:inline-block;
@@ -107,11 +141,31 @@ footer {
         display: block;
         border-bottom: solid 2px #111111;
         padding: 0.5em;
+        margin-bottom: 0.4em;
     }
     
     .active {
-        border-bottom: dotted 2px #111111;   
+        background-color:#f2f2f2;
     }
+    
+    .active a {
+        color:black;
+        border-bottom: dotted 2px #111111;
+    }
+    
+    #content p {
+        padding: 6em;
+    }
+    
+    #content h3 {
+        text-align: center;
+        margin-bottom: 3em;
+    }
+    
+    #contact {
+        text-align: center;
+    }
+    
     
     .col-3{
         width:32%;
@@ -121,6 +175,12 @@ footer {
     
     #events{
         margin:0;
+    }
+    
+    footer {
+        position:fixed;
+        left:0px;
+        bottom:0px;
     }
     
 }
