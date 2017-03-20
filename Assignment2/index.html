@@ -4,108 +4,117 @@
     <meta charset="UTF-8">
     <title>De La Pau 2017</title>
     <link rel="stylesheet" href="style.css">
+    <script src="slideshow.js"></script>
 </head>
 <body>
     <div class="container">
+       
         <header>
             <div class="slideshow">
-                <h1><img src="img/Logo/Logo_White.png" alt="De La Pau"></h1>
-                <h3>MARCH 9-10 2017 Barselona</h3>
-                <script src="../p5.min.js"></script>
-                <script src="sketch.js" ></script> <!-- countdown timer -->
+                <div class="slideshow_content">
+                    <h1><img src="img/Logo/Logo_White.png" alt="De La Pau"></h1>
+                    <h3>MARCH 9-10 2017 Barselona</h3>
+                    <script src="../p5.min.js"></script>
+                    <script src="sketch.js" ></script> <!-- countdown timer -->
+                </div>
             </div>
         </header>
+        
         <nav>
+            <ul>
             <button class="toggle-menu">
                 <span></span> <!-- span by default is inline, div is block. -->
                 <span></span> <!-- these spans are used to display the hamburger -->
                 <span></span>
             </button>
-            <ul class="mein-menu">
-                <li><a href="index.html"></a><img src="img/Logo/Logo_Black.png" alt="De La Pau"></li>
-                <li><a href="">LINE UP</a>
-                    <ul class="dropdown-content">
-                        <li><a href="">MARCH 9</a></li>
-                        <li><a href="">MARCH 10</a></li>
-                    </ul>
-                </li>
-                <li><a href="">PASSES</a>
-                    <ul class="dropdown-content">
-                        <li><a href="">GA</a></li>
-                        <li><a href="">VIP</a></li>
-                    </ul>
-                </li>
-                <li><a href="">TRAVEL</a>
-                    <ul class="dropdown-content">
-                        <li><a href="">GETTING HERE</a></li>
-                        <li><a href="">WHERE TO STAY</a></li>
-                    </ul>
-                </li>
-                <li><a href="">MORE</a>
-                    <ul class="dropdown-content">
-                        <li><a href="">NEWS</a></li>
-                        <li><a href="">MARCH</a></li>
-                    </ul>
-                </li>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">LINE UP</a>
+                <div class="dropdown-content">
+                  <a href="#">MARCH 9</a>
+                  <a href="#">MARCH 10</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">PASSES</a>
+                <div class="dropdown-content">
+                  <a href="#">G.A.</a>
+                  <a href="#">V.I.P.</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">TRAVEL</a>
+                <div class="dropdown-content">
+                  <a href="#">GETTING HERE</a>
+                  <a href="#">WHERE TO STAY</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">MORE</a>
+                <div class="dropdown-content">
+                  <a href="#">NEWS</a>
+                  <a href="#">MARCH</a>
+                </div>
+              </li>
             </ul>
         </nav>
+        
         <div class="container">
-            <div class="lineup-th">
-                <h1>LINE UP</h1>
-                <h2>MARCH 9 - THURSDAY</h2>
-                <img src="" alt="artist1">
-                <img src="" alt="artist2">
-                <img src="" alt="artist3">
-                <aside class="other_artists">
-                    <ul>
-                        <li>ARTIST1</li>
-                        <li>ARTIST2</li>
-                        <li>ARTIST3</li>
-                        <li>ARTIST4</li>
-                        <li>ARTIST5</li>
-                        <li>ARTIST6</li>
-                        <li>ARTIST7</li>
-                        <li>ARTIST8</li>
-                        <li>ARTIST9</li>
-                        <li>ARTIST10</li>
-                        <li>ARTIST11</li>
-                        <li>ARTIST12</li>
-                        <li>ARTIST13</li>
-                        <li>ARTIST14</li>
-                        <li>ARTIST15</li>
-                    </ul>
-                </aside>
-            </div>
-            <div class="lineup-we">
-                <h1>LINE UP</h1>
-                <h2>MARCH 10 - WEDNESDAY</h2>
-                <img src="" alt="artist4">
-                <img src="" alt="artist5">
-                <img src="" alt="artist6">
-                <aside class="other_artists">
-                    <ul>
-                        <li>ARTIST16</li>
-                        <li>ARTIST17</li>
-                        <li>ARTIST18</li>
-                        <li>ARTIST19</li>
-                        <li>ARTIST20</li>
-                        <li>ARTIST21</li>
-                        <li>ARTIST22</li>
-                        <li>ARTIST23</li>
-                        <li>ARTIST24</li>
-                        <li>ARTIST25</li>
-                        <li>ARTIST26</li>
-                        <li>ARTIST27</li>
-                        <li>ARTIST28</li>
-                        <li>ARTIST29</li>
-                        <li>ARTIST30</li>
-                    </ul>
-                </aside>
+            <div class="lineup">
+                <div class="lineup_child">
+                    <h1>MARCH 9 - THURSDAY</h1>
+                    <img src="img/artist_photo/6lack.jpg" alt="artist_photo_1">
+                    <img src="img/artist_photo/Abi-ocia.jpg" alt="artist_photo_2">
+                    <img src="img/artist_photo/Avelino2.jpg" alt="artist_photo_3">
+                    <aside class="other_artists">
+                        <ul>
+                            <li>FRANK OCEAN</li>
+                            <li>SADE</li>
+                            <li>VINCE STAPLES</li>
+                            <li>SPOON</li>
+                            <li>TYLER THE CREATER</li>
+                            <li>SNAKEHIPS</li>
+                            <li>CASYMERE CAT</li>
+                            <li>RUN THE JEWELS</li>
+                            <li>RADIOHEAD</li>
+                            <li>TRAVIS SCOTT</li>
+                            <li>KENDRICK LAMAR</li>
+                            <li>XXYYXX</li>
+                            <li>SCHOOLBOY Q</li>
+                            <li>TOVE LO</li>
+                            <li>LORDE</li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="lineup_child2">
+                    <h1>MARCH 10 - WEDNESDAY</h1>
+                    <img src="img/artist_photo/Banks2.jpg" alt="artist_photo_4">
+                    <img src="img/artist_photo/Justice.jpg" alt="artist_photo_5">
+                    <img src="img/artist_photo/Lancey-foux.jpg" alt="artist_photo_6">
+                    <aside class="other_artists">
+                        <ul>
+                            <li>BLINK 182</li>
+                            <li>STORMZY</li>
+                            <li>CHILDISH GAMBINO</li>
+                            <li>ASAP FERG</li>
+                            <li>BANKS</li>
+                            <li>TOOL</li>
+                            <li>LOGIC</li>
+                            <li>THE ORWELLS</li>
+                            <li>LOCAL NATIVES</li>
+                            <li>CAR SEAT HEADREST</li>
+                            <li>THE INTERNET</li>
+                            <li>FLUME BEACH HOUSE 28</li>
+                            <li>NO CEILING</li>
+                            <li>ABI OCIA</li>
+                            <li>DMV</li>
+                        </ul>
+                    </aside>
+                </div>
             </div>
             <div class="passes_container">
                 <div class="passes">
                     <h1>PASSES</h1>
-                    <div class="ge">
+                    <div class="passes_child">
                         <h2>GENERAL ADMISSION</h2>
                         <img src="img/pass_1day.png" alt="1 day GE pass">
                         <ul>
@@ -121,16 +130,16 @@
                             <li>something</li>
                         </ul>
                     </div>
-                    <div class="vip">
+                    <div class="passes_child">
                         <h2>GENERAL ADMISSION</h2>
-                        <img src="img/vippass_1day.png" alt="1 day VIP pass">
+                        <img src="img/pass_1day.png" alt="1 day VIP pass">
                         <ul>
                             <li>Full access</li>
                             <li>Free parking</li>
                             <li>something</li>
                         </ul>
                         <span></span> <!-- horizonal line -->
-                        <img src="img/vippass_2day.png" alt="2 day VIP pass">
+                        <img src="img/pass_2day.png" alt="2 day VIP pass">
                         <ul>
                             <li>Full access</li>
                             <li>Free parking</li>

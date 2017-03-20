@@ -1,4 +1,254 @@
 * {
-    paddin: 0;
+    padding: 0;
     margin: 0;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: bold;
 }
+
+.slideshow {
+    width: 100%;
+    background-image: url(img/slideshow/slideshow4.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+
+.slideshow img {
+    max-width: 500px;
+    width: 80%;
+    margin-top: 50px
+}
+
+.nav_logo {
+    height: 50px;
+}
+    
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover, .dropdown:hover .dropbtn {
+    background-color: #222;
+    color: #EEE;
+}
+
+nav li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #222;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 2px solid white;
+    border-top: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: #EEE;
+}
+
+.dropdown-content a:hover {
+    background-color: #111;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.lineup {
+    width: 100%;
+    background-image: url(img/Line_up_bg_blur.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: white;
+}
+
+.lineup ul {
+    margin: 3em;
+}
+
+.lineup h1 {
+    margin: 1.5em;
+}
+
+.lineup li {
+    float: left;
+    list-style-type: none;
+    margin: 0.5em 0.7em;
+    padding: 0;
+    overflow: hidden;
+}
+
+.lineup aside {
+    background-color: black; // try to make a bg for listed artists
+}
+
+.lineup_child {
+    float: left;
+    width: 50%;
+    background-image: url(img/Line_up_bg_blur.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 1em;
+}
+
+.lineup_child img {
+    width: 18%;
+    margin: 10px;
+}
+
+.lineup_child2 {
+    float: left;
+    width: 50%;
+    background-image: url(img/pass_bg_blur.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 1em;
+}
+
+.lineup_child2 img {
+    width: 18%;
+    margin: 10px;
+}
+
+.lineup_child2 h1 {
+    color: black;
+}
+
+.passes_container {
+    width: 100%;
+    background-color: #222;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: white;
+}
+
+.passes_container img {
+}
+
+.passes_child {
+    width: 50%;
+    background-color: #222;
+    background-size: cover;
+    background-position: center center;
+}
+
+footer {
+    height: 50px;
+    background-color: #222;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+
+footer p {
+    font-weight: bold;
+    float: left;
+    margin-left: 30%;
+}
+
+footer img {
+    height: 30px;
+    float: right;
+    margin: 10px;
+}
+
+footer li {
+    float:left;
+    list-style: none;
+}
+
+footer ul {
+    float: right;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
