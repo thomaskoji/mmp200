@@ -85,6 +85,67 @@ nav li.dropdown {
 
 
 
+.lineup {
+    width: 100%;
+    background-image: url(img/Line_up_bg_blur.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: white;
+}
+
+.lineup ul {
+    padding-bottom: 2em;
+}
+
+.lineup h1 {
+    padding: 1em;
+}
+
+.lineup li {
+    list-style-type: none;
+    margin: 0.5em 0.7em;
+    padding: 0;
+    overflow: hidden;
+}
+
+.lineup aside {
+    background-color: black; // try to make a bg for listed artists
+}
+
+.lineup_child {
+    width: 100%;
+    background-image: url(img/Line_up_bg_blur.jpg) ;
+    background-size: cover;
+    background-position: center center;
+}
+
+.lineup_child img {
+    width: 40%;
+    margin: 1em;
+}
+
+.lineup_child2 {
+    float: left;
+    width: 100%;
+    background-image: url(img/pass_bg_blur.jpg) ;
+    background-size: cover;
+    background-position: center center;
+}
+
+.lineup_child2 img {
+    width: 40%;
+    margin: 1em;
+}
+
+.lineup_child2 h1 {
+    color: black;
+}
+
+
+
+
+
 .passes_container {
     width: 100%;
     background-color: #222;
@@ -103,6 +164,9 @@ nav li.dropdown {
     background-size: cover;
     background-position: center center;
 }
+
+
+
 
 footer {
     height: 50px;
@@ -216,7 +280,20 @@ footer {
     }
 
 
+
+
+
+
+
+
+
+
+
 @media (min-width:768px){
+    
+    .mobile {
+        display: none;
+    }
     
 .pc {
     display: inline;
