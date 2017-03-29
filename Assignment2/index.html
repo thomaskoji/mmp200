@@ -13,7 +13,7 @@
             <div class="slideshow">
                 <div class="slideshow_content">
                     <h1><img src="img/Logo/Logo_White.png" alt="De La Pau"></h1>
-                    <h3>MARCH 9-10 2017 Barselona</h3>
+                    <h3>MARCH 9-10 2017 Barcelona</h3>
                     <script src="../p5.min.js"></script>
                     <script src="sketch.js" ></script> <!-- countdown timer -->
                 </div>
@@ -28,24 +28,24 @@
                 <span></span>
             </button>
               <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">LINE UP</a>
+                <a href="#lineup" class="dropbtn">LINE UP</a>
                 <div class="dropdown-content">
-                  <a href="#">MARCH 9</a>
-                  <a href="#">MARCH 10</a>
+                  <a href="#lineup">MARCH 9</a>
+                  <a href="#lineup">MARCH 10</a>
                 </div>
               </li>
               <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">PASSES</a>
+                <a href="#passes" class="dropbtn">PASSES</a>
                 <div class="dropdown-content">
-                  <a href="#">G.A.</a>
-                  <a href="#">V.I.P.</a>
+                  <a href="#passes">G.A.</a>
+                  <a href="#passes">V.I.P.</a>
                 </div>
               </li>
               <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">TRAVEL</a>
+                <a href="#travel" class="dropbtn">TRAVEL</a>
                 <div class="dropdown-content">
-                  <a href="#">GETTING HERE</a>
-                  <a href="#">WHERE TO STAY</a>
+                  <a href="#travel">GETTING HERE</a>
+                  <a href="#travel">WHERE TO STAY</a>
                 </div>
               </li>
               <li class="dropdown">
@@ -60,12 +60,12 @@
         
         <div class="container">
             <div class="lineup">
-                <div class="lineup_child">
+                <div class="lineup_child" id="lineup" >
                     <h1>MARCH 9 - THURSDAY</h1>
-                    <img src="img/artist_photo/6lack.jpg" alt="artist_photo_1">
-                    <img src="img/artist_photo/Abi-ocia.jpg" alt="artist_photo_2">
-                    <img src="img/artist_photo/Avelino2.jpg" alt="artist_photo_3">
-                    <aside class="other_artists">
+                    <img src="img/artist_photo/6lack.jpg" alt="artist_photo_1" class="pc">
+                    <img src="img/artist_photo/Abi-ocia.jpg" alt="artist_photo_2" class="pc">
+                    <img src="img/artist_photo/Avelino2.jpg" alt="artist_photo_3" class="pc">
+                    <aside class="other_artists" class="pc">
                         <ul>
                             <li>FRANK OCEAN</li>
                             <li>SADE</li>
@@ -87,10 +87,10 @@
                 </div>
                 <div class="lineup_child2">
                     <h1>MARCH 10 - WEDNESDAY</h1>
-                    <img src="img/artist_photo/Banks2.jpg" alt="artist_photo_4">
-                    <img src="img/artist_photo/Justice.jpg" alt="artist_photo_5">
-                    <img src="img/artist_photo/Lancey-foux.jpg" alt="artist_photo_6">
-                    <aside class="other_artists">
+                    <img src="img/artist_photo/Banks2.jpg" alt="artist_photo_4" class="pc">
+                    <img src="img/artist_photo/Justice.jpg" alt="artist_photo_5" class="pc">
+                    <img src="img/artist_photo/Lancey-foux.jpg" alt="artist_photo_6" class="pc">
+                    <aside class="other_artists" class="pc">
                         <ul>
                             <li>BLINK 182</li>
                             <li>STORMZY</li>
@@ -111,7 +111,7 @@
                     </aside>
                 </div>
             </div>
-            <div class="passes_container">
+            <div class="passes_container" id="passes">
                 <div class="passes">
                     <h1>PASSES</h1>
                     <div class="passes_child">
@@ -148,17 +148,34 @@
                     </div>
                 </div>
             </div>
-            <div class="travel">
-                <!-- https://developers.google.com/maps/documentation/embed/guide -->
+            <div class="travel" id="travel">
+                <div class="travel_child">
+                    <h1>TRAVEL</h1>
+                    <img src="img/Map.png" alt="map" class="map_img">
+                    <div class="travel_grandchild">
+                        <p>
+                            <img src="img/airplain_logo.png" alt="map" height="50px" class="travel_logo">
+                            30 minute on train from International Barcelona Airport
+                        </p>
+                        <p>
+                            <img src="img/car_logo.png" alt="map" height="50px" class="travel_logo">
+                            20 minute drive from Barcelona city center
+                        </p>
+                        <p>
+                            <img src="img/walking_logo.png" alt="map" height="50px" class="travel_logo">
+                            15 minute walk from Sant Andria de Besos station
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
         <footer>
             <P>CONTACT | POLICY | SPONSORS | ADVERTISING | CAREERS</P>
             <ul>
-                <li><a href=""><img src="img/twitter_icon.png" alt="twitter"></a></li>
-                <li><a href=""><img src="img/facebook_icon.png" alt="twitter"></a></li>
-                <li><a href=""><img src="img/instagram_icon.png" alt="twitter"></a></li>
-                <li><a href=""><img src="img/youtube_icon.png" alt="twitter"></a></li>
+                <li><a href="#"><img src="img/twitter_icon.png" alt="twitter"></a></li>
+                <li><a href="#"><img src="img/facebook_icon.png" alt="twitter"></a></li>
+                <li><a href="#"><img src="img/instagram_icon.png" alt="twitter"></a></li>
+                <li><a href="#"><img src="img/youtube_icon.png" alt="twitter"></a></li>
             </ul>
         </footer>
     </div>

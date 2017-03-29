@@ -16,7 +16,7 @@
 }
 
 .slideshow img {
-    max-width: 500px;
+    max-width: 380px;
     width: 80%;
     margin-top: 50px
 }
@@ -129,7 +129,7 @@ nav li.dropdown {
 .lineup_child2 {
     float: left;
     width: 50%;
-    background-image: url(img/Pass_bg_blur.jpg) ;
+    background-image: url(img/pass_bg_blur.jpg) ;
     background-size: cover;
     background-position: center center;
     padding-bottom: 1em;
@@ -193,11 +193,100 @@ footer ul {
     margin-right: 50px;
 }
 
+.passes {
+    padding: 1em;
+    background-image: url(img/Pass_bg_blur.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: black;
+}
+
+.passes h1 {
+    padding: 0.5em;
+    margin-top: 
+}
+
+.passes img {
+    max-width: 90%;
+}
+
+.passes_child {
+    margin: 1em auto;
+    padding: 1em;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    width: 33%;
+}
+
+.passes_child li{
+    list-style: none;
+}
+
+.passes_child img {
+    display: inline-block;
+}
+
+.travel {
+    background-image: url(img/Line_up_bg_blur.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+.map_img {
+    max-width: 80%
+}
+
+.travel_child {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.travel_child h1 {
+    padding: 1em;
+}
+
+.travel_child p {
+    text-align: center;
+    font-size: 150%;
+    padding: 0.5em;
+}
+
+.travel_logo {
+    margin-right: 1em;
+}
+
+.travel_grandchild {
+    padding: 2em;
+}
+
+.travel_grandchild img {
+    margin: 0 auto;
+    display: block;
+}
+
+footer {
+}
+
+.pc {
+        display: none;
+    }
 
 
-
-
-
+@media (min-width:768px){
+    
+.pc {
+    display: inline;
+}
+    
+.travel_grandchild img {
+    margin: 0;
+    display: inline;
+}
+    
+}
 
 
 
