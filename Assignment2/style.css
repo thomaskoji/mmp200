@@ -110,7 +110,6 @@ nav li.dropdown {
 }
 
 .lineup aside {
-    background-color: black; // try to make a bg for listed artists
 }
 
 .lineup_child {
@@ -221,7 +220,7 @@ footer ul {
     background-color: white;
     color: black;
     border-radius: 5px;
-    width: 33%;
+    width: 70%;
 }
 
 .passes_child li{
@@ -277,7 +276,7 @@ footer {
 
 .pc {
         display: none;
-    }
+}
 
 
 
@@ -291,9 +290,9 @@ footer {
 
 @media (min-width:768px){
     
-    .mobile {
-        display: none;
-    }
+.mobile {
+    display: none;
+}
     
 .pc {
     display: inline;
@@ -330,7 +329,6 @@ footer {
 }
 
 .lineup aside {
-    background-color: black; // try to make a bg for listed artists
 }
 
 .lineup_child {
@@ -365,6 +363,15 @@ footer {
     color: black;
 }
 
+.passes_child {
+    margin: 1em auto;
+    padding: 1em;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    width: 33%;
+}
+    
 }
 
 
